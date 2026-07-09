@@ -256,10 +256,14 @@ img {
 .hero-image-wrapper {
     position: relative;
     border-radius: 12px;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
     border: 1px solid var(--border-color);
-    background-color: var(--light-bg-color);
+    background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%); /* ইমেজ না থাকলেও ডার্ক প্রিমিয়াম ব্যাকগ্রাউন্ড দেখাবে */
     overflow: hidden;
+    min-height: 350px;       /* বক্সের একটা মিনিমাম হাইট সেট করা হলো */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ==========================================================================
