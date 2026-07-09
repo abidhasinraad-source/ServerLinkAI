@@ -172,9 +172,11 @@ img {
 }
 
 /* Logo dynamic wide sizing fix */
+/* লোগো সাইজ আরও বড় এবং ওয়াইড করার পারফেক্ট ফিক্স */
 .logo-img {
-    height: 55px;        /* 40px theke barie wide element er jonno clear visualization */
-    width: auto;         /* Aspect ratio automatic preserve thakbe */
+    height: auto;            /* হাইট অটোমেটিক অ্যাডজাস্ট হবে */
+    width: 240px;            /* লোগোর উইডথ বাড়িয়ে ২৪০ পিক্সেল করা হলো যাতে বড় দেখায় */
+    max-width: 100%;
     display: block;
     object-fit: contain;
 }
